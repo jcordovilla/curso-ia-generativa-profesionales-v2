@@ -1,0 +1,92 @@
+site_name: IA Generativa para Profesionales
+site_description: "Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP."
+
+theme:
+  name: material
+  font:
+    text: Lato
+    code: Fira Code
+  language: es
+  icon:
+    logo: material/toy-brick-plus
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+extra_css:
+  - style.css
+
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
+  - pymdownx.tilde
+
+nav:
+  - "Bienvenida": index.md
+  - "Módulo 1 - Entender la IA generativa": modulo-1-entender-ia-generativa.md
+  - "Módulo 2 - Automatizar con IA": modulo-2-automatizar-con-ia.md
+  - "Módulo 3 - Asistentes con documentos": modulo-3-asistentes-con-documentos.md
+  - "Módulo 4 - IA que programa por ti": modulo-4-ia-que-programa.md
+  - "Módulo 5 - Construir tu sistema": modulo-5-construir-sistema.md
+  - "Módulo 6 - Evaluar y escalar": modulo-6-evaluar-y-escalar.md
+  - "Módulo 7 - Tu caso de uso": modulo-7-caso-uso-final.md
+  - "Recursos": recursos.md
+  - "Glosario": glosario.md
+
+
+plugins:
+  - search
+  - callouts
+
+exclude_docs: |
+  _archivo/
