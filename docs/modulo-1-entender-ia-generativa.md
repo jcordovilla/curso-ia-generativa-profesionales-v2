@@ -1,5 +1,5 @@
 ---
-date: "2026-02-08"
+date: "2026-06-12"
 title: "Módulo 1 - Entender la IA generativa"
 tags:
   - lang/es
@@ -15,7 +15,9 @@ usefulness: 0.9
 
 ¿Cuántas aplicaciones de IA has abierto este último año sin tener claro cuál usar, para qué, ni qué podías escribir en ellas sin meter la pata? Es una confusión habitual, y casi siempre nace de empezar por las herramientas en lugar de por los conceptos.
 
-Antes de automatizar nada conviene entender las piezas básicas, las justas para **decidir con criterio**: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cómo plantear tus primeras peticiones. Este módulo te da esas bases. Todo lo demás se construye encima.
+Antes de automatizar nada conviene entender las piezas básicas, las justas para **decidir con criterio**: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cuánto cuesta todo esto. Este módulo te da esas bases. Todo lo demás se construye encima.
+
+Si todavía no has practicado los tres primeros escalones de la escalera (resumir sobre material propio, estructurar la petición, iterar), empieza por [Antes de empezar](antes-de-empezar.md); este módulo da por hecha esa base.
 
 ---
 
@@ -106,7 +108,31 @@ No existe "la mejor IA". Existen modelos con distintas capacidades, precios y po
 
 ---
 
-## 4. Privacidad y seguridad: qué puedes compartir con la IA
+## 4. ¿Cuánto cuesta esto?
+
+La pregunta que todo el mundo se hace y casi ningún curso responde con cifras. Las de esta sección son de junio de 2026; los precios concretos cambian, pero los órdenes de magnitud llevan años estables.
+
+**Suscripciones de chat** (precios oficiales en dólares, sin impuestos; el cargo en euros varía con el cambio y el IVA):
+
+| Opción | Coste mensual | Qué cubre |
+|--------|---------------|-----------|
+| Versión gratuita (ChatGPT, Claude, Gemini) | 0 | Suficiente para los ejercicios de "Antes de empezar"; límites de uso y modelos básicos |
+| ChatGPT Plus | 20 $ | Modelos superiores, más cuota de uso, GPTs personalizados |
+| Claude Pro | 20 $ (17 $/mes en plan anual) | Modelos superiores, más cuota, Claude Projects |
+| Google AI Pro | 19,99 $ | Gemini avanzado e integración con Google Workspace |
+| Google AI Plus | 7,99 $ | Escalón intermedio, con menos cuota |
+| Modelos locales (Ollama, LM Studio) | 0 | Corren en tu ordenador; la privacidad total de la sección siguiente |
+
+**Coste por uso.** Cuando en el módulo 2 montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Un caso de uso personal que corre a diario (el resumen matinal de boletines, la clasificación del correo entrante) se mueve en pocos euros al mes. Mi propio flujo de boletines de cada mañana cuesta [JC: dato pendiente] al mes.
+
+**Presupuesto orientativo.** Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, según la plataforma que elijas, un plan de pago que verás con detalle en el módulo 2.
+
+> [!tip] Observación práctica
+> Más de una suscripción de pago a la vez rara vez compensa al empezar. Prueba dos o tres herramientas en gratuito, elige la que mejor entienda tu contexto, paga esa y revisa la decisión a los tres meses, que en este mercado es una era geológica.
+
+---
+
+## 5. Privacidad y seguridad: qué puedes compartir con la IA
 
 Esta es la sección que más profesionales ignoran y la que más problemas causa.
 
@@ -133,9 +159,35 @@ Esta es la sección que más profesionales ignoran y la que más problemas causa
 3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams: no entrenan con datos).
 4. **¿Mi organización tiene una política de IA?** Si no la tiene, es buen momento para proponerla.
 
+### La decisión en tres preguntas
+
+Las listas anteriores cubren los casos típicos, y aun así la duda reaparece con material concreto entre manos. Para esos momentos, la regla entera cabe en tres preguntas que se hacen en orden; en cuanto una sale mal, ese material no se comparte:
+
+1. **¿Contiene datos personales o de terceros?** Nombres con DNI, teléfonos, datos de clientes. Si sí: fuera, o anonimiza primero y vuelve a empezar por la pregunta 1.
+2. **¿Está bajo confidencialidad, o tu cliente la consideraría sensible?** Contratos con cláusulas, información financiera, material de proyecto. Si sí: solo en un entorno aprobado por tu organización o en un modelo local.
+3. **¿La enviarías por un canal externo que no controlas?** Si la respuesta te hace dudar, no la subas.
+
+Si el material pasa las tres preguntas, adelante.
+
+<!-- Pieza visual pendiente: árbol de decisión SVG, tras fijar el estilo con el diagrama de la escalera (fase 1, iteración con JC) -->
+
+### ¿Y si tu empresa no permite la nube?
+
+La prohibición suele ser más razonable de lo que parece desde fuera: quien la impone responde de los datos de los clientes. Ahora bien, prohibir la nube y renunciar a la IA son cosas distintas, y conviene conocer las tres salidas antes de dar el tema por cerrado:
+
+1. **Aprender no toca datos de empresa.** Todo lo que practica este curso funciona con documentos públicos, material inventado o textos anonimizados.
+2. **Modelos locales.** Programas como Ollama o LM Studio ejecutan el modelo entero en tu ordenador: nada de lo que escribes sale de tu máquina, ni siquiera hay conexión de por medio. Rinden por debajo de los grandes modelos en nube, y aun así sobran para resumir, clasificar y extraer.
+3. **Versiones de empresa.** ChatGPT Enterprise, Claude for Teams y equivalentes no entrenan con los datos de sus clientes y ofrecen los controles que el departamento de informática necesita ver.
+
+**Cómo plantear la conversación con informática.** La diferencia entre un sí y un no suele estar en llegar con un caso de uso concreto y las palabras correctas, en vez de una petición vaga de "usar IA". Algo así:
+
+> "Quiero usar IA para resumir documentación interna. ¿Tenemos licencia de empresa de alguna herramienta aprobada? Si no, ¿podemos valorar una versión empresarial que no entrene con nuestros datos, o un modelo local tipo Ollama para empezar?"
+
+Con eso, el responsable de informática tiene tres opciones concretas que evaluar y un interlocutor que ha hecho los deberes. La conversación cambia de tono.
+
 ---
 
-## 5. Cuentas, credenciales y conexiones
+## 6. Cuentas, credenciales y conexiones
 
 Cuando empiezas a conectar herramientas con IA, aparecen tres conceptos que confunden a todo el mundo. Merece la pena aclararlos una vez:
 
@@ -152,7 +204,7 @@ Cuando empiezas a conectar herramientas con IA, aparecen tres conceptos que conf
 
 ---
 
-## 6. Multimodalidad: la IA que ve y escucha
+## 7. Multimodalidad: la IA que ve y escucha
 
 Los modelos actuales no solo procesan texto. Los más avanzados pueden:
 
@@ -166,7 +218,7 @@ Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura
 
 ---
 
-## 7. Errores comunes al empezar
+## 8. Errores comunes al empezar
 
 - **"Uso ChatGPT para todo"** → Cada modelo tiene fortalezas distintas. Prueba al menos dos para comparar.
 - **"La IA me da siempre la razón"** → Los modelos son complacientes por diseño. Pídele explícitamente que señale errores o debilidades en tu planteamiento.
@@ -176,18 +228,20 @@ Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura
 
 ---
 
-## 8. Aplícalo
+## 9. Aplícalo
 
 > [!example] Aplícalo
 > Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.
 
 ---
 
-## 9. Cierre y aprendizajes clave
+## 10. Cierre y aprendizajes clave
 
 - La IA generativa es **una herramienta de proceso que necesita instrucciones claras**: tratarla como un buscador o un oráculo es la vía rápida a la decepción.
 - Todo lo que harás con IA se reduce a **4 patrones**: resumir, clasificar, extraer, conversar.
 - **Elegir modelo es elegir compromiso** entre calidad, coste y privacidad.
+- **El coste tiene órdenes de magnitud conocidos**: gratuito para aprender, unos 20 dólares al mes para trabajar en serio, céntimos por documento cuando automatices.
+- **La privacidad cabe en tres preguntas**, y si tu empresa no permite la nube hay tres salidas concretas que plantearle a informática.
 - **La privacidad no es opcional**: saber qué compartir y qué no es tan importante como saber usar la herramienta.
 - **Las credenciales son la puerta de entrada**: si no las entiendes, te atascas antes de empezar.
 

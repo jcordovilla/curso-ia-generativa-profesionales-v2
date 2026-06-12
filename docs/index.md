@@ -1,5 +1,5 @@
 ---
-date: "2026-01-08"
+date: "2026-06-12"
 title: "IA Generativa para Profesionales"
 tags:
   - lang/es
@@ -44,11 +44,12 @@ Te basta con saber **qué es posible, cómo se hace y dónde están los límites
 
 ## Cómo está organizado
 
-El curso tiene **7 módulos progresivos**. Cada módulo tiene una **vía rápida** con los conceptos esenciales y secciones **Profundiza** opcionales para quienes quieran entrar en la capa técnica.
+El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin número: [Antes de empezar](antes-de-empezar.md), los tres primeros escalones con el chat que ya tienes. Cada módulo tiene una **vía rápida** con los conceptos esenciales y secciones **Profundiza** opcionales para quienes quieran entrar en la capa técnica.
 
 | Módulo | Tema | Qué sabrás hacer |
 |--------|------|-------------------|
-| [1](modulo-1-entender-ia-generativa.md) | Entender la IA generativa | Elegir modelo, evaluar riesgos, identificar patrones de uso |
+| [Antes de empezar](antes-de-empezar.md) | La base, sin herramientas nuevas | Resumir sobre material propio, estructurar la instrucción, iterar |
+| [1](modulo-1-entender-ia-generativa.md) | Entender la IA generativa | Elegir modelo, evaluar riesgos y costes, identificar patrones de uso |
 | [2](modulo-2-automatizar-con-ia.md) | Automatizar con IA | Construir flujos entrada → IA → salida sin código |
 | [3](modulo-3-asistentes-con-documentos.md) | Asistentes con documentos | Crear un asistente que responde sobre tus propios archivos |
 | [4](modulo-4-ia-que-programa.md) | IA que programa por ti | Entender los AI coding assistants y MCP |
@@ -83,4 +84,4 @@ Los módulos se leen en orden, pero no hace falta hacerlo todo de una sentada. L
 
 Tu experiencia profesional es el activo que la IA amplifica. El objetivo de este curso es que la máquina **trabaje contigo**: que delegues lo tedioso y conserves el criterio, que es lo único que no se automatiza.
 
-Comienza por el [Módulo 1](modulo-1-entender-ia-generativa.md) para familiarizarte con los conceptos fundamentales y elegir tus herramientas.
+Comienza por [Antes de empezar](antes-de-empezar.md) para practicar los tres primeros escalones con el chat que ya tienes, y sigue con el [Módulo 1](modulo-1-entender-ia-generativa.md) para los conceptos fundamentales y la elección de herramientas.
