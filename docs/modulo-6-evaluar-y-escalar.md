@@ -7,6 +7,7 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Módulo 6 - Evaluar y escalar

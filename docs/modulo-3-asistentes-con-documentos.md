@@ -7,13 +7,14 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Módulo 3 - Asistentes con documentos
 
 ## Crear asistentes propios que responden sobre tu información
 
-En el módulo anterior ya construiste un flujo que procesa información con IA. El siguiente paso lógico es: *¿y si en vez de un flujo fijo tengo un asistente al que puedo hacerle preguntas sobre mis propios documentos?*
+En el [módulo anterior](modulo-2-automatizar-con-ia.md) ya construiste un flujo que procesa información con IA. El siguiente paso lógico es: *¿y si en vez de un flujo fijo tengo un asistente al que puedo hacerle preguntas sobre mis propios documentos?*
 
 Eso es lo que veremos aquí: **cómo crear un asistente alimentado con tu documentación, sin poner en riesgo información sensible** y usando el vocabulario correcto para explicarlo dentro de tu organización.
 

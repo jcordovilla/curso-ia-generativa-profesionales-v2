@@ -7,6 +7,7 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Módulo 2 - Automatizar con IA
@@ -25,7 +26,7 @@ Para que no quede abstracto: uno de los primeros flujos que monté para mí mism
 
 Casi toda automatización con IA se reduce a tres bloques:
 
-1. **Entrada:** un email, un formulario, un registro en una hoja de cálculo, un webhook.
+1. **Entrada:** un email, un formulario, un registro en una hoja de cálculo, un [webhook](glosario.md).
 2. **Procesamiento IA:** el modelo recibe el contenido con un prompt específico y devuelve un resultado.
 3. **Salida:** el resultado se envía a un canal (Slack, Teams, email), se guarda en un CRM o se escribe en una hoja de cálculo.
 

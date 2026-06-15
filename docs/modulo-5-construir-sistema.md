@@ -7,6 +7,7 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Módulo 5 - Construir tu sistema
@@ -20,7 +21,7 @@ usefulness: 0.9
 
 ## 1. RAG: hacer que la IA lea TUS documentos
 
-En el módulo 3 creaste un asistente con documentos usando plataformas como GPTs o Claude Projects. Eso funciona, pero tiene limitaciones: dependes del proveedor, no controlas cómo se indexa la información y no puedes conectarlo con tus propios sistemas.
+En el [módulo 3](modulo-3-asistentes-con-documentos.md) creaste un asistente con documentos usando plataformas como GPTs o Claude Projects. Eso funciona, pero tiene limitaciones: dependes del proveedor, no controlas cómo se indexa la información y no puedes conectarlo con tus propios sistemas.
 
 Un **RAG** (*Retrieval-Augmented Generation*) es la forma profesional de resolver esto. El concepto es sencillo:
 

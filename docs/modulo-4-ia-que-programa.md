@@ -7,6 +7,7 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Módulo 4 - IA que programa por ti
@@ -100,7 +101,7 @@ Con AI coding assistants y MCP combinados, las posibilidades se amplían enormem
 | Sector | Lo que puedes construir | Herramientas implicadas |
 |--------|------------------------|------------------------|
 | Consultoría | Sistema que lee tus emails, identifica temas por proyecto y genera informes semanales | AI coding assistant + MCP (correo) |
-| Legal | Buscador semántico sobre contratos que responde preguntas en lenguaje natural | AI coding assistant + RAG + base vectorial |
+| Legal | Buscador semántico sobre contratos que responde preguntas en lenguaje natural | AI coding assistant + [RAG](glosario.md) + base vectorial |
 | Marketing | Flujo que analiza menciones en redes, clasifica sentimiento y genera un briefing diario | AI coding assistant + APIs de redes sociales |
 | RRHH | Asistente que responde preguntas de empleados sobre políticas internas | AI coding assistant + GPT personalizado + documentos |
 | Finanzas | Dashboard que extrae datos clave de informes mensuales y detecta desviaciones | AI coding assistant + procesamiento de PDFs |

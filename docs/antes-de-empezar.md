@@ -7,6 +7,7 @@ tags:
   - topic/automation
   - type/course
 usefulness: 0.9
+links_woven: true
 ---
 
 # Antes de empezar
@@ -23,9 +24,9 @@ Aquí no hace falta instalar nada, crear ninguna cuenta nueva ni tocar ninguna h
 
 Mi propio recorrido con estas herramientas, de 2023 a hoy, siguió una secuencia que se puede dibujar como una escalera de seis escalones. Empecé pidiendo resúmenes sueltos, aprendí a estructurar las peticiones, descubrí que la primera respuesta es siempre un borrador, y solo después llegaron los pasos encadenados, los documentos adjuntos y los formatos reutilizables. La secuencia es reproducible, y este curso la recorre entera.
 
-![La escalera de adopción de la IA generativa: seis escalones desde la síntesis y redacción asistida hasta los formatos estructurados](assets/escalera-adopcion.svg)
+![La escalera de adopción de la IA generativa: seis escalones de práctica, con el módulo 1 de conceptos como descansillo entre los escalones 3 y 4](assets/escalera-adopcion.svg)
 
-Este capítulo cubre los escalones 1 a 3, que se suben solo con el chat. Los escalones 4 a 6 (encadenar pasos, trabajar sobre tus documentos, pedir formatos reutilizables) se suben en el [módulo 2](modulo-2-automatizar-con-ia.md), cuando ya tengas el criterio de los módulos previos. Para un principiante, la mayor parte del valor está en los tres primeros: con ellos ya se trabaja distinto.
+Este capítulo cubre los escalones 1 a 3, que se suben solo con el chat. Los escalones 4 a 6 (encadenar pasos, trabajar sobre tus documentos, pedir formatos reutilizables) se suben en el [módulo 2](modulo-2-automatizar-con-ia.md). Entre unos y otros está el descansillo del dibujo: el [módulo 1](modulo-1-entender-ia-generativa.md), que no es un escalón de práctica sino los conceptos para decidir con criterio (qué es la IA, qué modelo elegir, qué compartir con ella y cuánto cuesta). Para un principiante, la mayor parte del valor está en los tres primeros escalones: con ellos ya se trabaja distinto.
 
 > [!tip] Observación práctica
 > No hace falta memorizar la escalera ni subirla de un tirón. Sirve para situarte: cuando una sección del curso te resulte avanzada, casi siempre será porque presupone un escalón que aún no has practicado. Vuelve a él y el resto encaja.
@@ -65,7 +66,7 @@ El salto de calidad más grande de toda la escalera cuesta una frase más de esc
 En mi histórico, el salto del primer año al segundo se ve exactamente aquí. Un ejemplo que recuerdo bien: un discurso para una conferencia con un hueco de nueve a diez minutos. En vez de pedir "escríbeme un discurso", la petición fijaba el papel del ponente, el público, el mensaje central y una restricción dura de duración (a unas dos palabras y media por segundo, el texto no podía pasar de cierta longitud). El resultado necesitó retoques, por supuesto, pero salió a la primera con la medida y el tono correctos, porque la medida y el tono iban en la petición.
 
 > [!tip] Observación práctica
-> La pieza que más gente omite es la última: qué hacer si falta información. Sin esa instrucción, la IA rellena los huecos con inventos que suenan verosímiles. Añadir "si no tienes el dato, indícalo" a tus peticiones es el hábito más rentable de este capítulo, y en el módulo 1 verás por qué (la trampa se llama precisión plausible).
+> La pieza que más gente omite es la última: qué hacer si falta información. Sin esa instrucción, la IA rellena los huecos con inventos que suenan verosímiles. Añadir "si no tienes el dato, indícalo" a tus peticiones es el hábito más rentable de este capítulo, y en el [módulo 1](modulo-1-entender-ia-generativa.md) verás por qué (la trampa se llama precisión plausible).
 
 > [!example] Ejercicio 2
 > Coge un correo real que tengas pendiente de escribir y que te dé pereza: una respuesta delicada, una reclamación, una negativa. Pídeselo al chat con las cinco piezas: rol, tarea, contexto, formato y restricciones. Lee el borrador como lo que es, un borrador, y quédate con lo aprovechable. El objetivo del ejercicio es comprobar cuánto mejora la salida cuando la entrada va completa.
