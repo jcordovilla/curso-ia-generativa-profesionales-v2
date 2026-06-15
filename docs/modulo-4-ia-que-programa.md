@@ -1,5 +1,5 @@
 ---
-date: "2026-02-08"
+date: "2026-06-16"
 title: "Módulo 4 - IA que programa por ti"
 tags:
   - lang/es
@@ -17,6 +17,10 @@ links_woven: true
 Hasta ahora hemos trabajado con herramientas que ya existen: plataformas no-code, GPTs personalizados, flujos visuales. Todo eso sigue siendo válido. Pero hay algo que ha cambiado de forma radical en el último año y que la mayoría de cursos de IA todavía no recoge: **la frontera entre "saber programar" y "no saber programar" se ha desdibujado**.
 
 Es un cambio real que afecta directamente a lo que un profesional puede hacer por sí mismo, por mucho que el sector lo envuelva en lenguaje de marketing.
+
+![El cambio de paradigma: del chat que responde con texto al asistente de código que ejecuta acciones, lee tus archivos y entrega un resultado](assets/cambio-de-paradigma.svg)
+
+Hasta el módulo 3, la IA te respondía y tú actuabas: le pedías un resumen, lo leías y lo usabas. Lo que aparece en este módulo invierte esa relación. Le describes lo que necesitas y la IA actúa: escribe el código, lo ejecuta, lee tus archivos y te entrega un resultado. Tú revisas y decides, que es donde tu criterio vale más. Ese es el cambio, y conviene entenderlo antes de ver las herramientas que lo permiten.
 
 ---
 
@@ -60,6 +64,21 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 
 > [!warning] Alerta de privacidad
 > Cuidado con lo que le pasas a estos asistentes. Si le pides que procese un archivo con datos de clientes, ese archivo puede acabar en los servidores del proveedor. Antes de trabajar con datos reales, verifica las políticas de privacidad y usa datos de prueba cuando estés experimentando.
+
+> [!question] ¿Esto es para ti?
+> Conviene ser honesto sobre el listón, porque el marketing del sector lo baja demasiado y los manuales técnicos lo suben demasiado. La verdad está en medio.
+>
+> **Lo que sí necesitas:**
+> - Criterio de negocio: saber qué construir, para qué y para quién. Es lo que la IA no tiene.
+> - Saber describir lo que quieres con la precisión de los seis escalones de la escalera.
+> - Comodidad mínima con una terminal (la ventana de texto del glosario). Intimida el primer día y se le pierde el miedo en una tarde.
+> - Paciencia para iterar: nada de esto sale a la primera, y ese es el trabajo, no un contratiempo.
+>
+> **Lo que no necesitas:**
+> - Saber programar, ni Python, ni entender el código línea a línea. Lo escribe la IA; tú validas el resultado, no el código.
+> - Una formación técnica previa. Yo no la tenía.
+>
+> **Dónde está el listón real:** no en la dificultad técnica, sino en la tolerancia a que algo no funcione al primer intento y en la constancia para volver a describirlo mejor. Si eso te echa para atrás, este módulo te sirve igual para entender qué pedir y a quién; no hace falta que lo construyas tú.
 
 ---
 
@@ -170,6 +189,15 @@ El ejemplo que sigue no es hipotético: es, más o menos, cómo nació el sistem
 
 Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu correo, y un programador horario para que se ejecute cada lunes. Lo que antes era un proyecto de semanas se convierte en una sesión de trabajo. Eso fue, casi literalmente, mi primer proyecto serio con un asistente de código. El segundo ya fue más ambicioso, y cada uno me costó menos que el anterior.
 
+### La versión honesta del camino
+
+Lo que acabo de contar es la versión limpia. La de verdad tuvo más tropiezos, y conviene contarla entera, porque la frontera honesta del curso es justo esto. Aquel sistema que lee mi correo perdió mensajes durante semanas sin que yo lo supiera: un problema de tiempos entre cuándo llegaba un correo y cuándo lo veía el flujo hacía que algunos se saltaran para siempre. Lo descubrí por casualidad, buscando un correo que sabía que existía y no aparecía. La búsqueda sobre mis miles de notas se quedó pequeña y empezó a fallar, y hubo que rehacerla entera sobre otra base. Los conectores se rompían con las carpetas anidadas del correo y devolvían errores que no decían nada. Cada uno de esos atascos fue una tarde perdida y una reconstrucción.
+
+Ninguno de esos problemas era de programación en el sentido clásico: eran detalles de cómo encajan las piezas, y los resolví describiéndoselos al asistente de código una y otra vez hasta que funcionaron. Esa es la destreza real, y no aparece en ningún tutorial: no escribir código, sino tener la paciencia de volver a explicar el problema cuando la primera solución no sirve.
+
+> [!tip] A dónde lleva el camino
+> Para que el destino no quede en abstracto, unos números propios. Entre diciembre de 2025 y junio de 2026, en 25 semanas, ese sistema acumuló más de 500 sesiones de trabajo con la IA, unos 420 archivos creados y más de 1.200 modificados, tres conectores que enlazan la IA con mi correo, mis documentos y mis notas, y una veintena de pequeñas habilidades reutilizables que automatizan lo repetido. No lo cuento como hazaña, sino como prueba de que el destino es real y se llega pieza a pieza, sin formación de programador. (Son cifras de mi sistema a mediados de 2026; las pongo como orden de magnitud, no como meta.)
+
 ---
 
 ## 8. Modelos locales: la IA que no sale de tu ordenador
@@ -218,7 +246,7 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 ---
 
 > [!info] Para profundizar
-> - [Claude Code: Documentación oficial](https://docs.anthropic.com/en/docs/claude-code/overview): Referencia completa del AI coding assistant de Anthropic.
+> - [Claude Code: Documentación oficial](https://code.claude.com/docs/en/overview): Referencia completa del AI coding assistant de Anthropic.
 > - [Cursor: Editor con IA integrada](https://www.cursor.com/): Editor de código con IA para construir software conversacionalmente.
 > - [Model Context Protocol: Documentación oficial](https://modelcontextprotocol.io/introduction): Especificación del estándar MCP para conectar IA con herramientas.
 > - [Ollama: Modelos locales](https://ollama.com/): Ejecuta modelos de IA en tu ordenador sin enviar datos a terceros.

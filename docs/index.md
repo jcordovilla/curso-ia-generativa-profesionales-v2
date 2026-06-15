@@ -51,7 +51,7 @@ El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin 
 |--------|------|-------------------|
 | [Antes de empezar](antes-de-empezar.md) | La base, sin herramientas nuevas | Resumir sobre material propio, estructurar la instrucción, iterar |
 | [1](modulo-1-entender-ia-generativa.md) | Entender la IA generativa | Elegir modelo, evaluar riesgos y costes, identificar patrones de uso |
-| [2](modulo-2-automatizar-con-ia.md) | Automatizar con IA | Construir flujos entrada → IA → salida sin código |
+| [2](modulo-2-automatizar-con-ia.md) | Encadenar y adjuntar antes que automatizar | Subir los escalones 4-6 y montar tu primer flujo sin código |
 | [3](modulo-3-asistentes-con-documentos.md) | Asistentes con documentos | Crear un asistente que responde sobre tus propios archivos |
 | [4](modulo-4-ia-que-programa.md) | IA que programa por ti | Entender los AI coding assistants y MCP |
 | [5](modulo-5-construir-sistema.md) | Construir tu sistema | RAG, agentes y APIs (profundización opcional) |

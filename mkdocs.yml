@@ -75,7 +75,7 @@ nav:
   - "Bienvenida": index.md
   - "Antes de empezar": antes-de-empezar.md
   - "Módulo 1 - Entender la IA generativa": modulo-1-entender-ia-generativa.md
-  - "Módulo 2 - Automatizar con IA": modulo-2-automatizar-con-ia.md
+  - "Módulo 2 - Encadenar y adjuntar antes que automatizar": modulo-2-automatizar-con-ia.md
   - "Módulo 3 - Asistentes con documentos": modulo-3-asistentes-con-documentos.md
   - "Módulo 4 - IA que programa por ti": modulo-4-ia-que-programa.md
   - "Módulo 5 - Construir tu sistema": modulo-5-construir-sistema.md

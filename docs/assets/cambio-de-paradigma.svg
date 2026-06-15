@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" width="920" height="460" role="img" aria-label="El cambio de paradigma: del chat que responde con texto al asistente de código que ejecuta acciones, lee tus archivos y entrega un resultado">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .panel-titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 700; fill: #1a202c; }
+      .panel-titulo-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 700; fill: #ffffff; }
+      .paso { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; fill: #334155; }
+      .paso-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; fill: #e0e7ff; }
+      .cierre { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 600; fill: #1a202c; }
+      .cierre-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 600; fill: #ffffff; }
+      .flecha-label { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-style: italic; fill: #2563eb; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="460" y="42" text-anchor="middle">Del chat que responde al asistente que actúa</text>
+
+  <!-- Panel izquierdo: chat que responde -->
+  <rect x="45" y="95" width="360" height="280" rx="12" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="panel-titulo" x="225" y="135" text-anchor="middle">Chat que responde</text>
+  <line x1="80" y1="152" x2="370" y2="152" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text class="paso" x="80" y="188">Tú preguntas.</text>
+  <text class="paso" x="80" y="214">La IA responde con texto.</text>
+  <text class="paso" x="80" y="240">Tú copias, pegas y actúas.</text>
+  <text class="paso" x="80" y="266">Todo ocurre dentro</text>
+  <text class="paso" x="80" y="286">de la conversación.</text>
+  <text class="cierre" x="80" y="334">El trabajo lo haces tú,</text>
+  <text class="cierre" x="80" y="354">con la IA al lado.</text>
+
+  <!-- Flecha central -->
+  <line x1="415" y1="235" x2="498" y2="235" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="498,227 514,235 498,243" fill="#2563eb"/>
+  <text class="flecha-label" x="460" y="218" text-anchor="middle">el salto de</text>
+  <text class="flecha-label" x="460" y="262" text-anchor="middle">este módulo</text>
+
+  <!-- Panel derecho: asistente que actúa -->
+  <rect x="515" y="95" width="360" height="280" rx="12" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="panel-titulo-b" x="695" y="135" text-anchor="middle">Asistente que actúa</text>
+  <line x1="550" y1="152" x2="840" y2="152" stroke="#5b86f5" stroke-width="1.5"/>
+  <text class="paso-b" x="550" y="188">Tú describes qué necesitas.</text>
+  <text class="paso-b" x="550" y="214">La IA escribe el código</text>
+  <text class="paso-b" x="550" y="234">y lo ejecuta.</text>
+  <text class="paso-b" x="550" y="260">Lee tus archivos y entrega</text>
+  <text class="paso-b" x="550" y="280">un resultado.</text>
+  <text class="cierre-b" x="550" y="334">El trabajo lo hace la IA,</text>
+  <text class="cierre-b" x="550" y="354">tú revisas y decides.</text>
+</svg>
