@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="780" height="640" role="img" aria-label="Matriz para decidir si merece la pena automatizar una tarea, según su frecuencia y su estabilidad, con la tolerancia al error como tercer filtro">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .subtitulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #4a5568; }
+      .cuad-titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #1a202c; }
+      .cuad-titulo-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #0f766e; }
+      .cuad-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #4a5568; }
+      .eje { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #64748b; }
+      .eje-titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #334155; letter-spacing: 0.5px; }
+      .nota { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #4a5568; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="390" y="40" text-anchor="middle">¿Merece la pena automatizar esto?</text>
+  <text class="subtitulo" x="390" y="64" text-anchor="middle">Cruza la frecuencia con la estabilidad de la tarea</text>
+
+  <!-- Eje Y (frecuencia) -->
+  <text class="eje-titulo" transform="rotate(-90 70 300)" x="70" y="300" text-anchor="middle">FRECUENCIA</text>
+  <text class="eje" transform="rotate(-90 96 175)" x="96" y="175" text-anchor="middle">frecuente</text>
+  <text class="eje" transform="rotate(-90 96 425)" x="96" y="425" text-anchor="middle">esporádica</text>
+
+  <!-- Cuadrante arriba-izquierda: Espera -->
+  <rect x="130" y="100" width="248" height="200" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="cuad-titulo" x="254" y="185" text-anchor="middle">Espera</text>
+  <text class="cuad-sub" x="254" y="212" text-anchor="middle">aún cambia cada semana:</text>
+  <text class="cuad-sub" x="254" y="230" text-anchor="middle">automatizar es construir</text>
+  <text class="cuad-sub" x="254" y="248" text-anchor="middle">sobre arena</text>
+
+  <!-- Cuadrante arriba-derecha: Automatiza -->
+  <rect x="402" y="100" width="248" height="200" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="cuad-titulo-t" x="526" y="185" text-anchor="middle">Automatiza</text>
+  <text class="cuad-sub" x="526" y="212" text-anchor="middle">frecuente y estable:</text>
+  <text class="cuad-sub" x="526" y="230" text-anchor="middle">el caso que devuelve</text>
+  <text class="cuad-sub" x="526" y="248" text-anchor="middle">el esfuerzo</text>
+
+  <!-- Cuadrante abajo-izquierda: No automatices -->
+  <rect x="130" y="322" width="248" height="200" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="cuad-titulo" x="254" y="407" text-anchor="middle">No automatices</text>
+  <text class="cuad-sub" x="254" y="434" text-anchor="middle">ni frecuente ni estable:</text>
+  <text class="cuad-sub" x="254" y="452" text-anchor="middle">no hay nada que ganar</text>
+
+  <!-- Cuadrante abajo-derecha: Quizá no compense -->
+  <rect x="402" y="322" width="248" height="200" rx="10" fill="#f8fafc" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="cuad-titulo" x="526" y="407" text-anchor="middle">Quizá no compense</text>
+  <text class="cuad-sub" x="526" y="434" text-anchor="middle">estable pero esporádica:</text>
+  <text class="cuad-sub" x="526" y="452" text-anchor="middle">a mano quizá baste</text>
+
+  <!-- Eje X (estabilidad) -->
+  <text class="eje" x="254" y="548" text-anchor="middle">cambia a menudo</text>
+  <text class="eje" x="526" y="548" text-anchor="middle">estable</text>
+  <text class="eje-titulo" x="390" y="574" text-anchor="middle">ESTABILIDAD</text>
+
+  <!-- Tercer filtro -->
+  <text class="nota" x="390" y="612" text-anchor="middle">Tercer filtro sobre todos: si la tarea no tolera ningún error (nóminas, cláusulas legales),</text>
+  <text class="nota" x="390" y="630" text-anchor="middle">una persona valida siempre la salida, por muy frecuente y estable que sea</text>
+</svg>

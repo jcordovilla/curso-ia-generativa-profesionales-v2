@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="920" height="320" role="img" aria-label="El patrón de toda automatización con IA: una entrada llega, la IA la procesa con un prompt y el resultado sale a un canal o sistema">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .caja-titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 700; fill: #1a202c; }
+      .caja-titulo-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 700; fill: #ffffff; }
+      .caja-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #4a5568; }
+      .caja-sub-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #e0e7ff; }
+      .pie { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-style: italic; fill: #4a5568; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="460" y="42" text-anchor="middle">El patrón de toda automatización: entrada, IA, salida</text>
+
+  <!-- Caja 1: Entrada -->
+  <rect x="45" y="110" width="230" height="130" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="caja-titulo" x="160" y="160" text-anchor="middle">Entrada</text>
+  <text class="caja-sub" x="160" y="188" text-anchor="middle">correo · formulario</text>
+  <text class="caja-sub" x="160" y="208" text-anchor="middle">fila en una hoja</text>
+
+  <!-- Flecha 1 -->
+  <line x1="285" y1="175" x2="332" y2="175" stroke="#94a3b8" stroke-width="2.5"/>
+  <polygon points="332,168 345,175 332,182" fill="#94a3b8"/>
+
+  <!-- Caja 2: IA -->
+  <rect x="345" y="110" width="230" height="130" rx="10" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="caja-titulo-b" x="460" y="160" text-anchor="middle">IA procesa</text>
+  <text class="caja-sub-b" x="460" y="188" text-anchor="middle">un prompt la convierte</text>
+  <text class="caja-sub-b" x="460" y="208" text-anchor="middle">en el resultado</text>
+
+  <!-- Flecha 2 -->
+  <line x1="585" y1="175" x2="632" y2="175" stroke="#94a3b8" stroke-width="2.5"/>
+  <polygon points="632,168 645,175 632,182" fill="#94a3b8"/>
+
+  <!-- Caja 3: Salida -->
+  <rect x="645" y="110" width="230" height="130" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="caja-titulo" x="760" y="160" text-anchor="middle">Salida</text>
+  <text class="caja-sub" x="760" y="188" text-anchor="middle">correo · Slack</text>
+  <text class="caja-sub" x="760" y="208" text-anchor="middle">hoja de cálculo</text>
+
+  <!-- Pie -->
+  <text class="pie" x="460" y="288" text-anchor="middle">Si puedes dibujar estas tres cajas para tu tarea, puedes construirla</text>
+</svg>
